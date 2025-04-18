@@ -1,0 +1,126 @@
+/*css code*/
+h1
+.color{
+    color:#a0d2eb
+}
+
+
+img{
+    max-width:100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body{
+    background: rgba(0, 0, 255, 0.322);
+    font: inherit;
+    color: aquamarine;
+    -webkit-font-smoothing: antialiased;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container{
+    width:100%;
+    margin: auto;
+    padding: 0 15px;
+
+}
+
+.bottom-nav {
+    background-color: brown;
+    color:chartreuse;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+@media screen and (max-width: 750px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    img{
+        width:100%;
+        height: auto;
+    }
+    .main{
+        padding: 10px;
+    }
+}
+
+.controls{
+    margin: 20px auto;
+    text-align: center;
+}
+.controls button{
+    background-color: gray;
+    color:beige;
+    border: none;
+    padding: 10px 20pc;
+    margin: 1-px;
+    font-size: 1e,;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover{
+    background-color: white;
+    color:green;
+}
+
+#number-display{
+    font-size: 1.2em;
+    margin-top: 10px;
+    color:blueviolet
+}
+
+.dark-mode{
+    background:black;
+    color:firebrick;
+
+}
+
+.dark-mode header{
+    background-color: darkblue;
+}
+
+.dark-mode .bottom-nav {
+    background-color: white;
+
+}
+.dark-mode #number-display{
+    color:greenyellow
+}
+
+.dark-mode .bottom-nav{
+    background-color: aqua;
+    color: blueviolet;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
